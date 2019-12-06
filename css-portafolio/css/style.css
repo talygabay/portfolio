@@ -1,0 +1,364 @@
+* {
+        box-sizing: border-box;
+}
+
+
+@font-face {
+        font-family: AvenirNext;
+        src: local(AvenirNext-Regular),
+          url(/path/to/AvenirNext-Regular.woff2) format("woff2"),
+          url(/path/to/AvenirNext-Regular.woff) format("woff"),
+          url(/path/to/AvenirNext-Regular.ttf) format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+      }
+      
+      .Text-Style {
+        font-family: AvenirNext;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #242424;
+      }
+
+header{
+
+        width: 0 auto;
+        padding: 10% 0 15% 0;
+        background-image: url("../img/Path2.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+#img-fondo {
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        margin: -60px -50px 0px 0px;
+    }
+
+.linea1{
+        width: 113px;
+        border: solid 1px #979797;
+        display: flex;
+        justify-content: center;
+}
+
+.linea2{
+        height: 70px;
+        width: 0px;
+        border: solid 1px #979797;
+        align-content: center;
+        padding-top: 3%;
+}
+/*Containers*/
+
+        .container{
+                width: 80%;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                align-items: center;
+                flex-wrap: wrap;
+                padding: 4% 0;
+                
+                
+        }
+
+        .container-header{
+                margin: 0 auto;
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+
+                z-index: 2;
+
+        }
+        .container-section2{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+        
+        }  
+
+
+#image-profile{
+        box-align:"right";
+      
+      }
+
+
+#logos{
+        padding-bottom: 8%;
+        box-align: "center";
+      }
+
+
+#profile-img{
+        width: 302px;
+        height: 321px;
+
+}
+
+
+.title{
+        width: 540px;
+        height: 123px;
+        font-family: AvenirNext;
+        font-size: 30px;
+        font-weight: 600;
+        color: #242424;
+}
+.subtitle{
+        width: 435px;
+        height: 54px;
+        font-family: AvenirNext;
+        font-size: 20px;
+        color: #242424;
+        font-display: center;
+}
+
+.subtitle-middle{
+        width: 435px;
+        height: 54px;
+        font-family: AvenirNext;
+        font-size: 20px;
+        color: #242424;
+        text-align: center;
+        
+}
+
+
+section{
+       
+        margin-top:5%;
+}
+
+      
+
+.box{
+        background-image: linear-gradient(145deg, #60beb4 22%, #038fb2 74%);
+        width: 80%;
+        height:100%;
+        margin: 0 auto;
+        padding: 2% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      #uno{width:50%;}
+      #dos{
+        width:50%;
+        z-index:1;
+        }
+
+.box12{
+        width: 80%;
+        height:100%;
+        margin: 0 auto;
+        padding: 2% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        z-index: 0;
+}
+
+.box-right {
+        align-items: flex-end;
+        background-color: #35393c;
+      
+}
+
+.box-small{
+        background-color: #F2F3F5;
+        width: 35%;
+        padding: 2% 4%;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+  
+}
+
+#box-1 {
+        margin-right: 5%;
+}
+
+.caja1{
+        width:80%;
+        margin:0 auto;
+
+        display: flex;
+        align-items: center;
+}
+
+.caja2{
+        width:80%;
+        margin:0 auto;
+
+        display: flex;
+        align-items: center;
+        
+}
+/*Botones*/
+
+        #button-white1{
+                margin-top: 3%;
+                padding: 8px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                width: 182px;
+                height: 25px;
+                font-family: AvenirNext;
+                font-size: 18px;
+                color: #ffffff;
+                width: 194px;
+                height: 42px;
+                border: solid 1px #ffffff;
+                background-color: transparent;
+                align-items: right;
+        }
+
+        #button-black {
+                margin: 0 auto;
+                margin-top: 3%;
+                padding: 8px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                width: 10%;
+                height: 5%;
+                font-family: AvenirNext;
+                font-size: 18px;
+                text-align: center;
+                color: #242424;
+                width: 194px;
+                height: 42px;
+                border: solid 1px #242424;
+                background-color: transparent;
+                
+        }
+        
+        
+        #button-white{
+                margin-top: 3%;
+                margin-bottom: 15px;
+                padding: 8px 32px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                width: 182px;
+                height: 25px;
+                font-family: AvenirNext;
+                font-size: 18px;
+                text-align: center;
+                color: #ffffff;
+                width: 194px;
+                height: 42px;
+                border: solid 1px #ffffff;
+                background-color: transparent;
+                
+                }
+
+/*Estilos de texto*/
+
+        .textleft{
+                width: 315px; 
+                height: 81px;
+                font-family: AvenirNext;
+                font-size: 16px;
+                color: #ffffff;
+                text-align: left;
+        }          
+        .text-right{
+                width: 315px;
+                height: 81px;
+                font-family: AvenirNext;
+                font-size: 16px;
+                color: #ffffff;
+                text-align: right;
+                }
+
+        .textcenter-black{
+                height: 81px;
+                font-family: AvenirNext;
+                font-size: 16px;
+                color: #242424;
+                text-align: center;
+        }
+                
+        H1{ 
+                width: 540px;
+                height: 123px;
+                font-family: AvenirNext;
+                font-size: 30px;
+                font-weight: 600;
+                color: #242424;    
+        }     
+                
+        H2{
+                text-align: left;
+                color: #ffffff;
+                font-size: 40px;
+                font-family: AvenirNext;
+                margin-bottom: 0;
+                margin-top: 15px;
+                        
+        }
+
+        H3{      
+                text-align: center;
+                color: #242424;
+                font-size: 40px;
+                font-family: AvenirNext;
+                margin-bottom: 0;
+        }
+
+#image-smallsections {
+        align-items: center;
+        padding-top: 5%;
+        width: 100%;
+}
+
+#image-telefonos{
+        align-items: right;
+        margin-left:-5px;
+}
+
+#healthy {
+        margin-right:30px;
+        margin-top: 10%;
+}
+
+footer {
+        background-color: #F2F3F5; 
+        width: 100%;
+        height: 70%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+}
+
+@media screen and (min-width: 1441px){
+}

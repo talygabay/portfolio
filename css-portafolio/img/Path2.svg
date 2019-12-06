@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="470px" viewBox="0 0 1024 470" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" fill="#FFDBCB">
+            <g id="Header">
+                <path d="M0,0 L1024,0 L1024,470 C958.646788,447.015522 889.646788,431.682189 817,424 C708.029818,412.476716 708.758339,404.464308 589,413 C469.241661,421.535692 513.96381,423.978356 416,442 C318.03619,460.021644 313,470 214,470 C148,470 76.6666667,439 0,377 L0,0 Z" id="Path-2"></path>
+            </g>
+        </g>
+    </g>
+</svg>
